@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Rossy ❤️</title>
+
+<style>
+body{
+  margin:0;
+  background:radial-gradient(circle at top,#2a0015,#000);
+  font-family:'Georgia',serif;
+  color:white;
+  overflow-x:hidden;
+  transition:background 3s ease;
+}
+
+body.romantic-final{
+  background:radial-gradient(circle at center,#5a001f,#1a0008,#000);
+}
+
+.float-item{
+  position:fixed;
+  bottom:-60px;
+  pointer-events:none;
+  z-index:9999;
+  animation:floatUp linear forwards;
+}
+
+@keyframes floatUp{
+  0%{transform:translateY(0);opacity:1;}
+  100%{transform:translateY(-130vh);opacity:0;}
+}
+
+.star{
+  position:fixed;
+  width:2px;
+  height:2px;
+  background:white;
+  border-radius:50%;
+  animation:twinkle 2s infinite alternate;
+  z-index:1;
+}
+
+@keyframes twinkle{
+  from{opacity:.2}
+  to{opacity:1}
+}
+
+.section{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px;
+  text-align:center;
+}
+
+h1{
+  font-size:2.8em;
+  color:#ff2f6d;
+  text-shadow:0 0 20px #ff0055,0 0 40px #ff2f6d;
+}
+
+p{
+  font-size:1.15em;
+  line-height:1.9;
+  max-width:850px;
+  text-shadow:0 0 12px rgba(255,0,100,.45);
+  opacity:0;
+  transition:opacity 1.5s ease;
+}
+
+img{
+  width:90%;
+  max-width:420px;
+  border-radius:22px;
+  box-shadow:0 0 35px rgba(255,0,90,.8);
+  animation:zoom 18s infinite alternate;
+}
+
+@keyframes zoom{
+  from{transform:scale(1)}
+  to{transform:scale(1.1)}
+}
+
+/* PROPOSAL */
+.proposal-box{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.85);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity 1s ease;
+  z-index:50000;
+}
+
+.proposal-box.active{
+  opacity:1;
+  pointer-events:auto;
+}
+
+.proposal-content{
+  background:linear-gradient(145deg,#ff1a4d,#990033);
+  padding:40px;
+  border-radius:25px;
+  text-align:center;
+  box-shadow:0 0 40px #ff3366;
+  animation:popIn 0.8s ease;
+}
+
+.proposal-content h2{
+  margin-bottom:25px;
+  font-size:1.6em;
+}
+
+.proposal-content button{
+  margin:10px;
+  padding:12px 25px;
+  border:none;
+  border-radius:20px;
+  font-size:1em;
+  cursor:pointer;
+  background:white;
+  color:#990033;
+  font-weight:bold;
+  transition:transform 0.3s ease;
+}
+
+.proposal-content button:hover{
+  transform:scale(1.1);
+}
+
+@keyframes popIn{
+  from{transform:scale(0.5);opacity:0;}
+  to{transform:scale(1);opacity:1;}
+}
+</style>
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<div class="section"><h1>Para ti, mi amor eterno ❤️</h1></div>
+
+<div class="section"><img src="assets/images/foto1.jpg"></div>
+<div class="section"><img src="assets/images/foto2.jpg"></div>
+<div class="section"><img src="assets/images/foto3.jpg"></div>
+<div class="section"><img src="assets/images/foto4.jpg"></div>
+<div class="section"><img src="assets/images/foto5.jpg"></div>
+
+<div class="section">
+<p id="loveText">
+¡El principio de todo! 💖✨
+Aún recuerdo la primera noche que hablamos hasta el amanecer 🌙✨, esa noche donde todo comenzó, donde me dijiste “AMOR” por primera vez 🥹💘. No sabías lo nervioso que estaba… y desde ese instante mi corazón se entregó a ti ❤️. Esa palabra la sentí tan real, tan sincera, que supe que algo hermoso estaba naciendo dentro de mí 🌹 y comenzaste a convertirte en todo lo que necesitaba en mi vida.
+Recuerdo esas noches en las que hablábamos de todo un poco 💬💕. Eran las mejores noches a tu lado, aunque fuera a la distancia 🌎. Cada momento contigo lo llevo guardado en mi corazón 🔐❤️. Recuerdo cuando te decía “cuñada” jajaja 😅 por respeto… pero en realidad lo que quería decirte era “MI AMOR” 🫶💞. Sentía tanto amor por ti que me daba miedo expresarlo, por temor a no ser correspondido 💔. Pensaba que podía perderte… y eso sí me habría dolido mucho.
+Pero cuando empezamos a tener un trato diferente 💖✨ fue cuando tuve el valor para confesarte todo 🙈💌. Tal vez fue un poco tarde, pero sentí un gran alivio al abrir mi corazón. Desde entonces, mi amor por ti ha aumentado cada día mas 🌹📈.
+Desde que empezamos a hablar sentí nuestra conexión 🔥💫. ¿Quién diría que en un juego 🎮 conocería a la mujer que siempre soñé tener en mi vida? Cada momento contigo es un recuerdo muy valioso 🥰: nuestras risas 😂, las bromas, las fotos juntos 📸, los videos 🎥, las noches bailando 💃🕺, e incluso esos momentos tristes donde solo tú y yo sabíamos lo que pasaba 🤍. Hasta esos abrazos de nuestros avatares que se sentían tan reales 🫂✨… todo eso me hacía inmensamente feliz.
+Desde hace tiempo moría por besarte 💋❤️. Y cuando por fin pasó… nuestro primer beso 😳💞, esa noche llena de tensión, nervios y miedo a ser descubiertos jajaja 😅🔥, fue la mejor noche de mi vida. Porque supe que tú también sentías algo por mí 💘. Desde entonces empezamos a ser más “NOSOTROS” 🤍, con más confianza, y nuestro amor crecía cada día más 🌹✨.
+Ahora cada beso 💋, cada abrazo 🫂, cada risa 😍, cada instante contigo está lleno de amor. Te veo como mi estrella ⭐, mi rayito de sol ☀️… o mejor aún, como mi luna 🌙, porque la luna es única y hermosa, y así eres tú, mi amor. Tenerte ha sido lo mejor que me ha pasado, y quiero construir un futuro contigo 🏡💍.
+Eres la mejor persona que conocí en el 2025 🥹❤️ y quiero que sigas siendo parte de mi vida por muchísimo tiempo más. Sí, estoy enamorado de ti… profundamente enamorado de ROSSY 💖👑. Y aunque dicen que nada es eterno, yo creo que sí lo es cuando ambos lo decidimos 🤝💞. Por eso quiero hacer las cosas bien contigo y tenerte toda la vida a mi lado.
+Amarte es lo más bonito que me ha pasado 🌹. Aunque la distancia duela 🛫💔, mi corazón es tuyo desde el primer día y así seguirá siendo. Sueño con el día en que pueda tenerte de verdad, sin pantallas, sin distancia, sin miedos 🤍✨. Quiero despertar contigo, escuchar tu risa de cerca, besarte, abrazarte y sentir que eres mi hogar 🏡💞.
+Rossy, mi amor 💕, te deseo en todos los sentidos bonitos del amor… tu alma, tu cariño, tu tiempo, tus caricias, tus besos 💋✨. Hasta tus silencios me encantan 🤍. Quiero tenerte cerquita, sentir tu aroma, acariciar tu cabello, mirarte a los ojos por horas 🥰. No hay nadie que despierte en mí lo que tú despiertas 🔥❤️. Eres mi reina 👑, el amor de mi vida, y te amo con locura, con ternura, de una forma real y verdadera.
+Me encanta compartir tiempo contigo 💕. Nunca me voy a cansar de ti, jamás me aburriría de tu compañía 🫶. Siempre serás mi bebé tiquitita 🥹💞, mi amorcito, el amor de mi vida. Muero por llenarte de besitos esa carita piciosa 💋😍. Eres simplemente perfecta para mí.
+Y sé que a veces puedo ser celoso o enojón 😅, pero no es por desconfianza… es porque tengo miedo de perder lo más hermoso que tengo 💔. Me asusta que alguien más vea en ti lo que yo veo todos los días: una mujer increíble, humilde, sincera, leal y llena de amor 🤍👑. No quiero controlarte, quiero cuidarte y proteger lo nuestro, porque para mí no hay nadie más… solo tú ❤️.
+Todo este tiempo juntos me has hecho sentir una paz que nunca había sentido 🕊️💞. Eres ese hogar que siempre busqué 🏡. Me siento tan seguro contigo que no me arrepiento de entregarte mi corazón. Nunca voy a fallarte, porque no tengo intención de lastimar a la mujer que me hizo volver a creer en el amor ❤️✨.
+Mi amor, nunca olvides que aquí tienes a alguien que te va a elegir todos los días 💍💖. Mi cariño es solo tuyo, y voy a amarte más cada dia 🌅. Espero con ansias el día en que podamos estar juntos sin distancia de por medio 🤍✨.
+Me gustas, me encantas, me fascinas, me excitas 💘🔥. Eres mi deseo más bonito, mi sueño más grande. Y aunque ahora la distancia nos separe, aquí estaremos amándonos y esperándonos hasta que podamos estar juntos 💞🌎.
+Y aunque las palabras nunca serán suficientes para expresar todo lo que siento 🥹❤️, gracias por dejarme ser parte de tu vida, por darme tu confianza, tu amor y tu tiempo 🤍✨. Amo absolutamente todo de ti.
+Feliz San Valentín, amor mío 💌🌹
+Prometo amarte, respetarte, valorarte, elegirte y cuidarte siempre 🤍💍, porque mi vida es mejor desde que llegaste a ella y mi corazón te pertenece por completo ❤️✨.
+Te amo demasiado, mi amorcito 💖∞
+</p>
+</div>
+
+<div class="section"><h1>Te amo hoy, mañana y siempre ❤️</h1></div>
+
+
+<!-- PROPOSAL BOX -->
+<div id="proposalBox" class="proposal-box">
+  <div class="proposal-content">
+    <h2>¿Quieres ser mi amor para siempre? ❤️</h2>
+    <button onclick="acceptLove()">💖 Sí</button>
+    <button onclick="acceptLove()">💍 Siempre</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+    
+const music = document.getElementById("bgMusic");
+
+document.addEventListener("click", function startMusic(){
+  music.play();
+  document.removeEventListener("click", startMusic);
+});
+
+const textElement = document.getElementById("loveText");
+const originalHTML = textElement.innerHTML;
+textElement.innerHTML = "";
+textElement.style.opacity = 1;
+
+let i = 0;
+function typeWriter(){
+  if(i < originalHTML.length){
+    textElement.innerHTML += originalHTML.charAt(i);
+    i++;
+    setTimeout(typeWriter, 18);
+  }
+}
+setTimeout(typeWriter, 4000);
+
+/* Estrellas */
+for(let i=0;i<120;i++){
+  const star=document.createElement("div");
+  star.className="star";
+  star.style.left=Math.random()*100+"vw";
+  star.style.top=Math.random()*100+"vh";
+  star.style.animationDuration=(Math.random()*3+1)+"s";
+  document.body.appendChild(star);
+}
+
+/* Flotantes */
+setInterval(()=>{
+  const symbols=["❤️","🌹","🎈"];
+  const item=document.createElement("div");
+  item.className="float-item";
+  item.innerHTML=symbols[Math.floor(Math.random()*symbols.length)];
+  item.style.left=Math.random()*100+"vw";
+  item.style.fontSize=(Math.random()*35+20)+"px";
+  item.style.animationDuration=(Math.random()*5+6)+"s";
+  document.body.appendChild(item);
+  setTimeout(()=>item.remove(),12000);
+},250);
+
+/* 10 toques = propuesta */
+let tapCount = 0;
+document.addEventListener("click", function(){
+  tapCount++;
+  if(tapCount === 10){
+    document.getElementById("proposalBox").classList.add("active");
+  }
+});
+
+/* Final romántico */
+setTimeout(()=>{
+  document.body.classList.add("romantic-final");
+},42000);
+
+});
+
+/* Aceptar propuesta */
+function acceptLove(){
+  document.getElementById("proposalBox").classList.remove("active");
+
+  for(let i=0;i<40;i++){
+    const heart=document.createElement("div");
+    heart.className="float-item";
+    heart.innerHTML="❤️";
+    heart.style.left=Math.random()*100+"vw";
+    heart.style.fontSize=(Math.random()*40+25)+"px";
+    heart.style.animationDuration=(Math.random()*4+4)+"s";
+    document.body.appendChild(heart);
+    setTimeout(()=>heart.remove(),8000);
+  }
+
+  alert("Rossy Mi Amor Te Amo Para Siempre 💍❤️");
+}
+</script>
+
+</body>
+</html>
